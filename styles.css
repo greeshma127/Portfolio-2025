@@ -245,7 +245,6 @@ h3{
 .projects .p{
     width: 400px;
     height: 480px;
-    flex: 1 1 600px; /* flexible shrink/grow basis */
     margin: 10px;
     margin-right: 50px;
     background-color: white;
@@ -313,4 +312,166 @@ footer .icon{
 .icon svg:hover{
     transform: scale(1.08); /* Zoom in by 5% */
     cursor: pointer;
+}
+
+@media (max-width:485px){
+    .about{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .sub-cont{
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about h2 {
+        font-size: 20px;
+    }
+
+    .about p {
+        font-size: 13px;
+    }
+
+    #para{
+        width: 300px;
+    }
+
+    .sub-cont .photo{
+        margin: 0px;
+    }
+
+    #abt{
+        margin: 0;
+        padding: 0;
+    }
+
+    .sub{
+        height: 750px;
+    }
+
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services .p{
+        margin: 0;
+        width: 100%;
+    }
+
+    .projects{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects .p{
+        width: 100%;        /* Reduced width */
+        height: 100% !important;
+        padding: 0px;     /* Optional: add some inner space */
+        margin: 0;
+    }
+
+    .p{
+        height: 0px;
+    }
+
+    .projects .p img{
+        height: 200px;
+    }
+
+    .sub-cont1 h2{
+        margin: 0 0 20px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .container{
+        height: 50%;
+    }
+    
+    .text{
+        margin: 70px 60px;
+        margin-right: 0;
+    }
+
+    .photo{
+        padding: 0;
+    }
+
+    .photo img{
+        align-items: left;
+        margin: 100px 0;
+        padding: 0;
+        padding: 0;
+        width: 90%;
+        height: auto;
+    }
+
+    .about{
+        margin: 0px;
+        margin-right: 40px;
+        padding: 0px;
+        width: 80%;
+    }
+
+    .sub-cont{
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about h2 {
+        font-size: 20px;
+    }
+
+    .about p {
+        font-size: 13px;
+    }
+
+    #abt{
+        margin: 20px 0px;
+        padding: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .sub-cont .photo{
+        margin: 0;
+        padding: 0;
+    }
+
+    .sub{
+        height: 750px;
+    }
+
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services .p{
+        margin: 0;
+        width: 100%;
+    }
+
+    .projects{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .projects .p{
+        width: 100%;        /* Reduced width */
+        height: 470px !important;
+        padding: 0px;     /* Optional: add some inner space */
+        margin: 0;
+    }
+
+    .projects .p img{
+        height: 250px;
+    }
 }
