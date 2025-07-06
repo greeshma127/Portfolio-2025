@@ -35,28 +35,28 @@ ul{
 }
 
 #menu-toggle {
-  display: none;
+    display: none;
 }
 
 /* Hamburger style */
 .hamburger {
-  display: none;
-  font-size: 28px;
-  cursor: pointer;
-  user-select: none;
-  color: white;
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    user-select: none;
+    color: white;
 }
 
 /* Nav links desktop */
 #nav-links {
-  list-style: none;
-  display: flex;
-  gap: 25px;
-  margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
 }
 
 #nav-links li {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 
@@ -222,7 +222,7 @@ h3{
 }
 
 .sub-cont1{
- margin: 0;
+    margin: 0;
     padding: 50px;
     background-color: #077A7D;
     color: white;   
@@ -253,13 +253,13 @@ h3{
 }
 
 .services h3 {
-  display: flex;
-  align-items: center;
-  gap: 8px; /* space between icon and text */
+    display: flex;
+    align-items: center;
+    gap: 8px; /* space between icon and text */
 }
 
 .services h3 svg {
-  vertical-align: middle;
+    vertical-align: middle;
 }
 
 .projects img{
@@ -431,35 +431,35 @@ footer .icon{
 @media only screen and (max-width: 768px){
     .hamburger {
         margin-right: 20px;
-    display: block;
-  }
+        display: block;
+    }
 
-  /* Hide nav links by default */
-  #nav-links {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px; /* below nav */
-    right: 20px;
-    background-color: white;
-    padding: 10px;
-    border-radius: 5px;
-    width: 150px;
-    z-index: 1000;
-  }
+    /* Hide nav links by default */
+    #nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px; /* below nav */
+        right: 20px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 5px;
+        width: 150px;
+        z-index: 1000;
+    }
 
-  #nav-links li {
-    padding: 10px 0;
-  }
+    #nav-links li {
+        padding: 10px 0;
+    }
 
-  #nav-links li:last-child {
-    border-bottom: none;
-  }
+    #nav-links li:last-child {
+        border-bottom: none;
+    }
 
-  /* Show menu when checkbox is checked */
-  #menu-toggle:checked + .hamburger + #nav-links {
-    display: flex;
-  }
+    /* Show menu when checkbox is checked */
+    #menu-toggle:checked + .hamburger + #nav-links {
+        display: flex;
+    }
 
     .container{
         height: 50%;
